@@ -1,1 +1,38 @@
 @import 'tailwindcss';
+
+@font-face {
+	font-family: 'Sunflower';
+	src: url('made_sunflower/made_sunflower.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 120%;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Sunflower', sans-serif;
+	font-weight: bold;
+	text-wrap: pretty;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+blockquote,
+p {
+	width: 70ch;
+}
