@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: 'Sunflower';
-	src: url('made_sunflower/made_sunflower.otf') format('opentype');
+	src: url('/made_sunflower/made_sunflower.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
