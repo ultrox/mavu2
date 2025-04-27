@@ -1,0 +1,9 @@
+/* The main css entry*/
+
+@import-glob './css/base/*.css';
+@import-glob './css/blocks/*.css';
+@import-glob './css/utilities/*.css';
+@import-glob './css/composition/*.css';
+/* @import-glob './debug.css'; */
+
+/* @import "open-props/postcss/shadows.min.css"; */

@@ -1,0 +1,10 @@
+/* debug */
+*,*::after,*::before{
+  border: 1px solid rgba(250,50,50,0.2)!important;
+}
+
+body {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.2) 1px, transparent 1px);
+  background-size: 100% 1rlh;
+  background-repeat: repeat;
+}

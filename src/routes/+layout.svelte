@@ -1,8 +1,8 @@
 <script lang="ts">
-	import '../app.css';
-	import '../fonts.css';
-
-	let { children } = $props();
+	import '../style/main.css';
 </script>
 
-{@render children()}
+<a class="visually-hidden button" href="#main-content">Skip to content</a>
+<main class="mt-m-l" tabindex="-1" id="main-content">
+	<slot />
+</main>
