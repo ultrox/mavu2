@@ -4,3 +4,11 @@
   Low-specificity, global styles that apply to the whole
   project: https://cube.fyi/css.html
 */
+body {
+	font-family: var(--font-base);
+}
+h1,
+h2,
+h3 {
+	font-family: var(--font-heading);
+}
